@@ -1,0 +1,27 @@
+.list__btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin: 0 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.list__btn--modify {
+
+    .icon__modify {
+        color: rgb(174 209 164);
+    }
+}
+.list__btn--delete {
+
+    .icon__delete {
+        color: rgb(223 168 168);
+    }
+}
+.list__btn--finish {
+
+    .icon__finish {
+        color: rgb(137 162 198);
+    }
+}

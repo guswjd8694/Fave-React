@@ -1,0 +1,21 @@
+.input-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .input {
+        width: 400px;
+        height: 40px;
+        border-style: none;
+        border-color: white;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+    }
+
+    .input__btn {
+        border: none;
+        width: 50px;
+        background-color: rgb(225 97 129 / 50%);
+        cursor: pointer;
+    }
+}
