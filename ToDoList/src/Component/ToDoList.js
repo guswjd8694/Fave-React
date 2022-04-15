@@ -9,7 +9,7 @@ export default function(props){
 
     return(
         <div className="list-wrap">
-            <ToDoItem items={props.item} />
+            <ToDoItem items={props.item} del={props.onDelete}/>
         </div>
     )
 }
